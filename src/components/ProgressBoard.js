@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import dndDataSet from '../assets/dndDataSet';
 import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd';
+import messages from "../assets/messages.png"
+import folder from "../assets/folder.png"
 
 
 
@@ -131,11 +133,13 @@ const ProgressBoard = () => {
                               {/* Comments and Files */}
                               <div className="flex items-center justify-center space-x-5 text-xs font-medium text-grayColor">
                                 <div className="flex items-center justify-center space-x-2">
-                                 
+                                
+                                <img src={messages} alt={'messages'} className="w-6 h-6" /> 
                                   <span className="">{comments} comments</span>
                                 </div>
                                 <div className="flex items-center justify-center space-x-2">
                                  
+                                <img src={files} alt={'messages'} className="w-6 h-6" /> 
                                   <span className="">{files} files</span>
                                 </div>
                               </div>
