@@ -117,7 +117,7 @@ const ProgressBoard = () => {
 
 {/* Users image */}
                             <div className="mt-10 flex items-center justify-between">
-                              <div className="flex -space-x-2 overflow-hidden">
+                              <div className="flex -space-x-2 mr-5 overflow-hidden">
                                 {users.map((user, index) => {
                                   return (
                                     <img key={index}
@@ -139,7 +139,7 @@ const ProgressBoard = () => {
                                 </div>
                                 <div className="flex items-center justify-center space-x-2">
                                  
-                                <img src={files} alt={'messages'} className="w-6 h-6" /> 
+                                <img src={folder} alt={'messages'} className="w-6 h-6" /> 
                                   <span className="">{files} files</span>
                                 </div>
                               </div>
