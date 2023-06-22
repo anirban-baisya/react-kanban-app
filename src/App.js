@@ -1,41 +1,8 @@
-// import logo from './logo.svg';
-// import './App.css';
-// import Sidebar from './components/Sidebar';
-
-// function App() {
-//   return (
-//     <>
-
-//     <div className="App">
-
-//     <main className=" flex w-full flex-row ">
-//       <aside className="md:flex w-1/5 md:border-r hidden ">
-//         <Sidebar />
-//       </aside>
-//       {/* <section className="mb-20 w-full  ">
-//         <Navbar />
-//         <Filter />
-//         <TaskBoard />
-//       </section> */}
-//     </main>
-
-//     </div>
-//     </>
-//   );
-// }
-
-// export default App;
-
-
-
-import logo from './logo.svg';
-import './App.css';
-import Sidebar from './components/Sidebar';
 import { useState } from 'react';
-import classNames from 'classnames';
-import Navbar from './components/Navbar';
+import './App.css';
 import Header from './components/Header';
-import ProgressBoard from './components/ProgressBoard';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
 
 function App() {
   const [collapsed, setSidebarCollapsed] = useState(false);
